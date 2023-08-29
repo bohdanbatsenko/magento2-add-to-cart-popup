@@ -136,7 +136,7 @@ define([
                     //                 <p>${$t('Items in cart: %1').replace('%1', cart.summary_count)}</p>
                     //                 <p>${$t('Cart subtotal: %1').replace('%1', Number(cart.subtotalAmount).toFixed(0))}</p>
                     // `
-                    //         )
+                    //         )`
                     //         .modal({
                     //             modalClass: 'add-to-cart-popup',
                     //             title: $.mage.__("Popup Title"),
