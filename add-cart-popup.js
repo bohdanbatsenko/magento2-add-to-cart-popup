@@ -35,39 +35,6 @@ define([
 
         _init: function () {
             this.addHandlers();
-
-            // $(document).on("ajax:addToCart",function(success){
-            //     //popup modal code
-            //     var popup = $('<div class="add-to-cart-modal-popup"/>')
-            //         .html(
-            //             //$('.page-title span').text()
-            //             //+ '<span> has been added to cart.</span>'
-            //             `
-            //     <p>${$t('Hi, %1').replace('%1', customer.firstname)}
-            //     ${$t('Items in cart: %1').replace('%1', cart.summary_count)}
-            //     ${$t('Cart subtotal: %1').replace('%1', cart.subtotal)}</p>
-            // `
-            //     )
-            //     .modal({
-            //         modalClass: 'add-to-cart-popup',
-            //         title: $.mage.__("Popup Title"),
-            //         buttons: [
-            //             {
-            //                 text: 'Continue Shopping',
-            //                 click: function () {
-            //                     this.closeModal();
-            //                 }
-            //             },
-            //             {
-            //                 text: 'Proceed to Checkout',
-            //                 click: function () {
-            //                     window.location = window.checkout.checkoutUrl
-            //                 }
-            //             }
-            //         ]
-            //     });
-            // popup.modal('openModal');
-            // })
         },
 
         addHandlers() {
