@@ -45,8 +45,6 @@ define([
 
         callPopup(){
             setTimeout(()=> {
-                //customerData.reload(['cart'], true);
-
                 const customer = customerData.get('customer')();
                 const cart = customerData.get('cart')();
                 const formattedTotal = Number(cart.subtotalAmount).toFixed();
